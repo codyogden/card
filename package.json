@@ -4,7 +4,7 @@
   "description": "Cody Ogden's card.",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "codyogden": "./bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "boxen": "4.1.0",
+    "chalk": "2.4.2"
   },
   "devDependencies": {
     "standard": "^12.0.1"
