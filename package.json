@@ -17,7 +17,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^2.1.0",
+    "boxen": "^4.1.0",
     "chalk": "^2.4.1"
   },
   "devDependencies": {
