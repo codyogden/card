@@ -1,0 +1,17 @@
+version: 2
+registries:
+  npm-registry-npm-fontawesome-com:
+    type: npm-registry
+    url: https://npm.fontawesome.com
+    token: "${{secrets.NPM_REGISTRY_NPM_FONTAWESOME_COM_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "02:00"
+    timezone: America/Chicago
+  open-pull-requests-limit: 99
+  registries:
+  - npm-registry-npm-fontawesome-com
