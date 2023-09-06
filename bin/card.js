@@ -9,7 +9,7 @@ const options = {
 const data = {
   name: chalk.white('Cody Ogden /'),
   handle: chalk.cyan('codyogden'),
-  work: chalk.white('Technical Account Manager, ▲ Vercel'),
+  work: chalk.white('Manager, Technical Consulting, ▲ Vercel'),
   twitter: chalk.cyan('https://twitter.com/codyogden'),
   github: chalk.cyan('https://github.com/codyogden'),
   linkedin: chalk.cyan('https://linkedin.com/in/codyogden'),
